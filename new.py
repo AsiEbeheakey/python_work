@@ -12,9 +12,13 @@ print('\nModified dimensions:')
 for dimension in dimensions:
     print(dimension)
 
+print("\n")
+
 buffet = ['rice', 'banku', 'plantain', 'beans']
 for dish in buffet:
-    print(f"{dish} is available")
+    print(f"{dish.title()} is available")
+
+print("\n")
 
 for dish in buffet:
     if dish == 'rice':
