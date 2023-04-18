@@ -18,7 +18,7 @@
 # number_of_tries = 3
 # while True:
 #     user_input = input('Please enter a number between 0 and 100: ')
-#     if int(user_input) < number:
+#     if user_input) < number:
 #         number_of_tries = number_of_tries - 1
 #         print("Number is low!")
 #         if number_of_tries == 0:
@@ -33,7 +33,6 @@
 #     else:
 #         print("You're correct!!")
 #         break
-
 
 number = 73
 number_of_tries = 3
