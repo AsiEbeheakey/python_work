@@ -89,6 +89,13 @@ items = [
 # for item in x:
 #    print(item)
 
-print(f"These are the prices available...")
-prices = [item[1] for item in items]
-print(prices) 
+# print(f"These are the prices available...")
+# prices = [item[1] for item in items]
+# print(prices) 
+
+values = {x*2 for x in range(6)}
+print(*values)
+
+numbers = [1, 2, 3]
+print(numbers)
+print(*numbers)

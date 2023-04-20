@@ -23,6 +23,7 @@ a = ['softlan', 'lenor', 'lenorpods', 'softlan', 'kuschelweish', 'softlan',
  'softlan', 'lenor', 'disinfectant']
 x = Counter(a)
 print(x)
+print(*x)
 print('\n')
 
 '''
